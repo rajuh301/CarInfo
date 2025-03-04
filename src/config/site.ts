@@ -6,7 +6,7 @@ export const siteConfig = {
   navItems: [
     {
       label: "VIN CHECK",
-      href: "/",
+      href: "/service",
     },
     {
       label: "CONTACT US",
@@ -17,7 +17,7 @@ export const siteConfig = {
   navMenuItems: [
     {
       label: "VIN CHECK",
-      href: "/",
+      href: "/service",
     },
     {
       label: "CONTACT US",
