@@ -22,7 +22,6 @@ export const createPost = async (formData: FormData): Promise<any> => {
 
 
 
-
 export const getCarInfo = async (vinId: string) => {
   const fetchOptions: any = {
     cache: "no-store",
@@ -31,6 +30,7 @@ export const getCarInfo = async (vinId: string) => {
     }
   };
 
+  // Correctly format the URL by interpolating the vinId in the query string
   const res = await fetch(`https://api.api-ninjas.com/v1/vinlookup?vin=${vinId}`, fetchOptions);
 
   if (!res.ok) {
