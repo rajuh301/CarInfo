@@ -31,6 +31,7 @@ export interface IUser {
   __v?: number;
 }
 
+
 export interface IInput {
   variant?: "flat" | "bordered" | "faded" | "underlined";
   size?: "sm" | "md" | "lg";
